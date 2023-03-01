@@ -1,0 +1,9 @@
+---
+
+- name: Get Hostname
+  command: hostname
+  register: cur_hostname
+
+- name: Echo Hostname
+  debug:
+    msg: "Current hostname is {{cur_hostname.stdout}}"

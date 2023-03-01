@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/yamllint.json": "file:///Users/sharrison1/chips-ansible/reginit/roles/deploy/tasks/deploy.yml"
+    }
+}
